@@ -1,0 +1,66 @@
+commit d5d1b804c0737367d3d0302fdb1d27bbf2bcdd54
+Author: Coromoto Leon Hernandez <cleon@miranda.(none)>
+Date:   Mon Mar 18 15:45:18 2013 +0000
+
+    Primeros ejemplos
+
+diff --git a/HelloWorld.java b/HelloWorld.java
+new file mode 100755
+index 0000000..4ab5b56
+--- /dev/null
++++ b/HelloWorld.java
+@@ -0,0 +1,8 @@
++/**
++  * Java Language 
++	*/
++public class HelloWorld { 
++  public static void main(String []args) { 
++    System.out.println("Hello World"); 
++  } 
++} 
+diff --git a/helloWorld.c b/helloWorld.c
+new file mode 100755
+index 0000000..e4e8d32
+--- /dev/null
++++ b/helloWorld.c
+@@ -0,0 +1,10 @@
++/* 
++ * C (CeeLanguage) (according to KernighanAndRitchie) 
++ */
++#include <stdio.h> 
++#include <stdlib.h> 
++int main(void) 
++{ 
++printf("Hello, world\n"); 
++return EXIT_SUCCESS; 
++} 
+diff --git a/helloWorld.cc b/helloWorld.cc
+new file mode 100755
+index 0000000..48aff8e
+--- /dev/null
++++ b/helloWorld.cc
+@@ -0,0 +1,7 @@
++/*
++ * C++ (CeePlusPlus) 
++ */
++#include <iostream> 
++int main() { 
++  std::cout << "Hello, World." << std::endl; 
++} 
+diff --git a/helloWorld.py b/helloWorld.py
+new file mode 100644
+index 0000000..ce438bd
+--- /dev/null
++++ b/helloWorld.py
+@@ -0,0 +1 @@
++print "Hello World"
+diff --git a/helloWorld.sh b/helloWorld.sh
+new file mode 100755
+index 0000000..9495326
+--- /dev/null
++++ b/helloWorld.sh
+@@ -0,0 +1,3 @@
++#! /bin/sh 
++#Bourne Shell: 
++echo hello, world 
+print "Hello World"
